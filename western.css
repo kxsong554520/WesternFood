@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+/*for top header only*/
+
+.header {
+    width: 100%;
+    padding: 5px;
+    background-color: cornsilk;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*for bottom footer only*/
+
+.footer {
+    width: 100%;
+    background-color: cornsilk;
+    text-align: left;
+    padding: 15px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+}
+
+/*for icon in the footer*/
+
+.footer a {
+    float: right;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+.footer a:hover {
+    color: violet;
+}
+
+/*for long cover after header*/
+
+.bgImg {
+    background-image: url("img/banner.jpg");
+    background-color: #cccccc;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.clock {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    text-align: center;
+}
+
+.clock p {
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.clock i {
+    font-size: 60px;
+}
+
+/*for logo*/
+
+.bgImg img {
+    max-height: 180px;
+}
+
+/*to adjust nav bar*/
+
+.cover {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/*to adjust nav bar*/
+
+.navbar {
+    overflow: hidden;
+}
+
+/*the nav bar*/
+
+.navbar a {
+    color: black;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 12.5%;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(255, 248, 220, 0.637);
+}
+
+/*when touching nav bar*/
+
+.navbar a:hover {
+    background-color: white;
+}
+
+/*showing which page is on*/
+
+.navbar .active {
+    background-color: cornsilk;
+}
+
+/*the container*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/******************************home**********************************/
+
+.left {
+    flex: 76%;
+    position: relative;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    margin-bottom: 100px;
+}
+
+.right {
+    flex: 24%;
+    border-left: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 4%;
+    margin-bottom: 100px;
+}
+
+/******************************home**********************************/
+
