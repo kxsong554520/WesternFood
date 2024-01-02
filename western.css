@@ -166,16 +166,6 @@ body {
     padding-top: 56.25%;
 }
 
-.responsive-iframe {
-    position: absolute;
-    top: 6%;
-    left: 10%;
-    bottom: 0;
-    right: 0;
-    width: 80%;
-    height: 20%;
-    border: 0px;
-}
 
 .middleside {
     flex: 30%;
@@ -197,5 +187,16 @@ body {
 .responsive-img {
     width: 100%;
     height: auto;
+    border: 0px;
+}
+
+.food-img{
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 20%;
     border: 0px;
 }
