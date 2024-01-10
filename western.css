@@ -155,7 +155,6 @@ body {
     margin-bottom: 100px;
 }
 
-/******************************home**********************************/
 
 /****************************about us********************************/
 
@@ -199,4 +198,66 @@ body {
     width: 80%;
     height: 20%;
     border: 0px;
+}
+
+/*****************************menu********************************/
+.menusite {
+    width: 15%;
+    margin-top: 5%;
+}
+
+.filterMenu {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: none;
+    text-align: center;
+}
+
+.filterMenu img {
+    width: 200px;
+    height: 200px;
+}
+
+.show {
+    display: block;
+}
+
+.displayMenu {
+    width: 85%;
+    margin-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 6%;
+}
+
+/* Style the buttons */
+
+.btn {
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: rgba(65, 105, 225, 0.267);
+    padding: 20px;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgba(65, 105, 225, 0.658);
+}
+
+.light {
+    background-color: royalblue;
+    color: white;
 }
