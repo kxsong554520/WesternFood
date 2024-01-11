@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Western Townhouse</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/logo1.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/57d52e4250.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <link rel="stylesheet" href="western.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .container .responsive-img {
+                max-width: 75%; 
+                height: auto; 
+            }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p>Western Townhouse</p>
+    </div>
+
+    <div class="bgImg">
+        <img src="img/logo1.png" alt="Logo Western Townhouse">
+        <div class="clock">
+            <i class="far fa-clock"></i>
+            <p style = "color: white"> Business Hour : <br>
+                10.00 a.m. - 2.00p.m. <br>
+                5.30 p.m. - 10.00p.m. <br>
+            </p>
+        </div>
+
+        <div class="cover">
+            <div class="navbar">
+                <a href="Feedback.html"></i>&ensp;Feedback</a>
+                <a href="faq.html"></i>&ensp;FAQ</a>
+                <a href="Findus.html"></i>&ensp;Find Us</a>
+                <a href="menu.html"></i>&ensp;Menu</a>
+                <a href="location.html" class="active"></i>&ensp;Location</a>
+                <a href="about.html"></i>&ensp;About Us</a>
+                <a href="Home.html"></i>&ensp;Home</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="web-banner">
+        <img src="img/webbanner.png" alt="web banner">
+    </div>
+
+    <div class="container">
+        <h1 class="location-title">Western Townhouse Frachise Locations in Malaysia</h1>
+        <div class="list-left">
+            <h2>Semenanjung Malaysia</h2><br>
+            <ul class="list">
+                <li><a href="javascript:void(0)" onclick="specific(0)">Pulau Pinang</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(1)">Kedah</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(2)">Perlis</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(3)">Perak</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(4)">Negeri Sembilan</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(5)">Selangor</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(6)">Johor</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(7)">Kelantan</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(8)">Terengganu</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(9)">Pahang</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(10)">Melaka</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(11)">Putrajaya</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(12)">Labuan</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(13)">Kuala Lumpur</a></li>
+                <br>
+            </ul>
+        </div>
+        <div class="list-right">
+            <h2>Sabah & Sarawak</h2><br>
+            <ul class="list">
+                <li><a href="javascript:void(0)" onclick="specific(14)">Sabah</a></li>
+                <br>
+                <li><a href="javascript:void(0)" onclick="specific(15)">Sarawak</a></li>
+                <br>
+            </ul>
+        </div>
+        <div class="location">
+            <button id="back" class="switch" onclick="previous()">《</button>
+            <table>
+                <tr>
+                    <th id="Title" colspan="2"></th>
+                </tr>
+                <tr>
+                    <td id="addr1"></td>
+                    <td id="addr4"></td>
+                </tr>
+                <tr>
+                    <td id="addr2"></td>
+                    <td id="addr5"></td>
+                </tr>
+                <tr>
+                    <td id="addr3" colspan="2"></td>
+                </tr>
+            </table>
+            <button id="next" class="switch" onclick="next()">》</button>
+        </div>
+
+    
+
+
+    <div class="footer">
+        <p>COPYRIGHT &copy; Western Townhouse
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        </p>
+    </div>
+    <script type="text/javascript" src="western.js"></script> 
+</body>
+
+</html>

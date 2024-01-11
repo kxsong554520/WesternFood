@@ -358,3 +358,108 @@ h2 a {
     text-align: center;
 }
 
+/****************************location********************************/
+
+.location-title {
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.list-left {
+    width: 22%;
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 65px;
+    overflow: hidden;
+}
+
+.list-left h2 {
+    color: royalblue;
+}
+
+.list-left a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.list-right {
+    width: 18%;
+    padding-left: 50px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.list-right h2 {
+    color: royalblue;
+}
+
+.list-right a {
+    text-decoration: none;
+    color: blueviolet
+}
+
+.list-left ul li {
+    list-style-type: circle;
+}
+
+.list-right ul li {
+    list-style-type: circle;
+}
+
+.location {
+    width: 60%;
+    padding-left: 80px;
+    padding-right: 80px;
+    float: left;
+    position: relative;
+}
+
+.location table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.location th {
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.location td {
+    padding: 20px;
+    font-size: 18px;
+    list-style-type: circle;
+}
+
+.switch {
+    background-color: rgb(111, 0, 255);
+    position: absolute;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+#back {
+    top: 23%;
+    left: 3%;
+}
+
+#next {
+    top: 23%;
+    left: 80%;
+}
+
+.switch:active {
+    transform: translateY(1px);
+}
+
+.switch:hover {
+    background-color: rgba(111, 0, 255, 0.651);
+    cursor: pointer;
+}
+
+
